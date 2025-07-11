@@ -581,7 +581,7 @@ def main():
              st.header ("Churn Risk predictor")
              if not os.path.exists('churn.joblib'):
                  st.error("Model is not yet trained. Pleasse go to the train model page.")
-                 if st.buttton(" go to Train Model"):
+                 if st.button(" go to Train Model"):
                      st.experimental_rerun()
                  else:
                      input_data = {}
