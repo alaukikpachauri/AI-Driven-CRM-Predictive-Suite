@@ -8,3 +8,5 @@ seaborn
 matplotlib
 plotly
 sqlalchemy
+sqlparse
+streamlit-chat
